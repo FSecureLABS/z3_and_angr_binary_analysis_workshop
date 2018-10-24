@@ -4,9 +4,17 @@ Originally delivered by Sam Brown at Steelcon and hack.lu 2018, this was a three
 
 Through out the workshop exercises were provided which aimed to demonstrate potential applications of the technology to assist security researchers carrying out reverse engineering and vulnerability research.
 
-## Exercises
+The slides provide a rough guide for the content and what order to try the exercises in. 
+
+## Examples and Exercises
+
+### Z3
+
+| Name | Type | Description |
+|------|------|-------------|
+| [N Queens](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/n_queens) | Example | 'How can N queens be placed on an NxN chessboard so that no two of them attack each other?' Uses Z3 to generate solutions for an N * N chessboard|
+
+### Angr
 
 ## Setup
 
-## Content
-The slides provide a rough guide for the content and what order to try the exercises in. 
