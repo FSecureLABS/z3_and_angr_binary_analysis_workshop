@@ -7,7 +7,9 @@
 #include <stdlib.h>
 #include "bomb.h"
 
-
+/*
+	Layout and a few random bits from http://www.cs.cmu.edu/afs/cs/academic/class/15213-f99/L2/4/bomb.c, all credit to Dr Evil.
+*/
 char *phase_one_key = "mwr_labs";
 
 unsigned int phase = 0;
