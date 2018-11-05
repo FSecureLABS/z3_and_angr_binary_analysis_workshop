@@ -14,7 +14,7 @@ The slides provide a rough guide for the content and what order to try the exerc
 |------|------|-------------|
 | [N Queens](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/n_queens) | Example | 'How can N queens be placed on an NxN chessboard so that no two of them attack each other?' Uses Z3 to generate solutions for an N * N chessboard|
 | [Hackvent 15](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/hackvent_15) | Example | Solution and walk through for solving a Hackvent 15 CTF challenge with Z3 |
-| [Suduko](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/suduko) | Exercise | Try to solve Suduo using Z3 |
+| [Suduko](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/suduko) | Exercise | Try to solve Suduko using Z3 |
 | [RNG](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/rng) | Exercise | Optional exercises - using Z3 to find non-cryptographically secure random number generators seed value |
 | [x86](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/x86) | 50/50 | Half examples, half DIY - implement simiplified versions of x86 instructions using Z3 |
 |[Opaque Predicates](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/opaque_predicates)| Exercise | Use the instructions implemented previously to identify [Opaque Predicates](https://en.wikipedia.org/wiki/Opaque_predicate) in small sequences of assembly instructions |
