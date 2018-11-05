@@ -1,4 +1,4 @@
-# Suduko
+# Sudoku
 
 The aim of this exercise is to write code using Z3 which takes an arbitary Suduko board and provided it's possible to solve, solve it.
 
