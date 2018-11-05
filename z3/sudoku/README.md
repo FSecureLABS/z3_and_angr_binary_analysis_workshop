@@ -1,19 +1,19 @@
 # Sudoku
 
-The aim of this exercise is to write code using Z3 which takes an arbitary Suduko board and provided it's possible to solve, solve it.
+The aim of this exercise is to write code using Z3 which takes an arbitary sudoku board and provided it's possible to solve, solve it.
 
 ## Files
 
 ### tests.txt
 
-100 random Suduko puzzles I found online, each on a seperate row that looks like this.
+100 random sudoku puzzles I found online, each on a seperate row that looks like this.
 ```
 31.6.......2.......5..9.78......5....9..1..6....4......75.6..3.......4.......7.92
 ```
 
 ### skeleton.py
 
-A simple skeleton file which takes in a file path and selects a random challenge from it, then prints it out. Your challenge is to finish it off so that it prints out a solved suduko board. Example usage.
+A simple skeleton file which takes in a file path and selects a random challenge from it, then prints it out. Your challenge is to finish it off so that it prints out a solved sudoku board. Example usage.
 
 ```
 $ python skeleton.py tests.txt 
