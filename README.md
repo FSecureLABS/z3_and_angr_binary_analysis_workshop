@@ -1,8 +1,8 @@
 # Intro to Binary Analysis with Z3 and Angr
 
-Originally delivered by Sam Brown at Steelcon and hack.lu 2018, this was a three hour workshop introducing attendees to using Z3 and Angr for SMT solving. The workshop provided an introduction to SMT solvers, the Z3 SMT solver and its python library and the Angr binary analysis framework.
+Originally delivered by Sam Brown at Steelcon and hack.lu 2018, this was a three hour workshop introducing attendees to using Z3 and Angr for binary analysis. The workshop provided an introduction to SMT solvers, the Z3 SMT solver and its python library and the Angr binary analysis framework.
 
-Through out the workshop exercises were provided which aimed to demonstrate potential applications of the technology to assist security researchers carrying out reverse engineering and vulnerability research.
+Through out the workshop exercises were provided which aimed to demonstrate potential applications of the technology to assist security researchers in carrying out reverse engineering and vulnerability research.
 
 The slides provide a rough guide for the content and what order to try the exercises in. 
 
@@ -29,7 +29,7 @@ The slides provide a rough guide for the content and what order to try the exerc
 
 ## Setup
 
-All code in Python3 and you should only need to install [Angr](http://angr.io/).
+All code is in Python3 and you should only need to install the [Angr](http://angr.io/) binary analysis framework.
 
 ```
 mkvirtualenv --python=$(which python3) angr && python -m pip install angr
