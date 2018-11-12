@@ -1,6 +1,6 @@
-# Intro to Binary Analysis with Z3 and Angr
+# Intro to Binary Analysis with Z3 and angr
 
-Originally delivered by Sam Brown at Steelcon and hack.lu 2018, this was a three hour workshop introducing attendees to using Z3 and Angr for binary analysis. The workshop provided an introduction to SMT solvers, the Z3 SMT solver and its python library and the Angr binary analysis framework.
+Originally delivered by Sam Brown at Steelcon and hack.lu 2018, this was a three hour workshop introducing attendees to using Z3 and angr for binary analysis. The workshop provided an introduction to SMT solvers, the Z3 SMT solver and its python library and the angr binary analysis framework.
 
 Through out the workshop exercises were provided which aimed to demonstrate potential applications of the technology to assist security researchers in carrying out reverse engineering and vulnerability research.
 
@@ -19,17 +19,17 @@ The slides provide a rough guide for the content and what order to try the exerc
 | [x86](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/x86) | 50/50 | Half examples, half DIY - implement simiplified versions of x86 instructions using Z3 |
 |[Opaque Predicates](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/opaque_predicates)| Exercise | Use the instructions implemented previously to identify [Opaque Predicates](https://en.wikipedia.org/wiki/Opaque_predicate) in small sequences of assembly instructions |
 |[Equivalence Checking](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/z3/equivalence_checking)| Example | Use the instructions implemented previously to identify equivalent sequences of instructions |
-### Angr
+### angr
 | Name | Type | Description |
 |------|------|-------------|
-| [opaque_predicates](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/opaque_predicates)| Example | Using Angr to identify opaque predicates with much less work :) |
-| [IOCTLs](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/ioctls)| Example | Identify Windows driver [IOCTL codes](https://docs.microsoft.com/en-us/windows/desktop/devio/device-input-and-output-control-ioctl-) using Angr |
-| [Hello World](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/hello_world)| 50/50 | Exercise and walkthrough on using Angr to generate valid arguments for a simple 'License Key Validator' |
-| [Bomb Lab](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/bomb_lab)| Exercise | DIY exercise using Angr to solve a 'Bomb lab' |
+| [opaque_predicates](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/opaque_predicates)| Example | Using angr to identify opaque predicates with much less work :) |
+| [IOCTLs](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/ioctls)| Example | Identify Windows driver [IOCTL codes](https://docs.microsoft.com/en-us/windows/desktop/devio/device-input-and-output-control-ioctl-) using angr |
+| [Hello World](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/hello_world)| 50/50 | Exercise and walkthrough on using angr to generate valid arguments for a simple 'License Key Validator' |
+| [Bomb Lab](https://github.com/sam-b/z3_and_angr_binary_analysis_workshop/tree/master/angr/bomb_lab)| Exercise | DIY exercise using angr to solve a 'Bomb lab' |
 
 ## Setup
 
-All code is in Python3 and you should only need to install the [Angr](http://angr.io/) binary analysis framework.
+All code is in Python3 and you should only need to install the [angr](http://angr.io/) binary analysis framework.
 
 ```
 mkvirtualenv --python=$(which python3) angr && python -m pip install angr

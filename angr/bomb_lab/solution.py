@@ -139,7 +139,7 @@ def phase_five(p, base):
 	print(' '.join(args))
 
 def phase_six(p, base):
-	# Phase six does some basic string manipulation, this is easy to load and solve in Angr
+	# Phase six does some basic string manipulation, this is easy to load and solve in angr
 	# But takes by far the longest time to run due to the complex constraints
 	state = p.factory.blank_state(addr=base + 0xd9e)
 
