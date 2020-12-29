@@ -141,7 +141,7 @@ def run_prog(instrutions):
 		elif op == 'xor':
 			state = xor(state, inst)
 		elif op == 'jg':
-			tate = jg(state, inst)
+			state = jg(state, inst)
 			dst = int(parts[1], 16)
 			s_one.add(state.eip == dst)
 			s_two.add(state.eip != dst)
